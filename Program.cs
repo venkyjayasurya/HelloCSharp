@@ -29,6 +29,13 @@ namespace HelloCSharp
             Console.WriteLine(isWorking);
 
             Console.WriteLine(randomDatatype);
+
+            Console.WriteLine("{0} {1}", num, firstName);
+            Console.WriteLine("{0} {1}", float.MinValue, float.MaxValue);
+
+            const float Pi = 3.14f;
+            //Pi = 1;
+
         }
     }
 }
