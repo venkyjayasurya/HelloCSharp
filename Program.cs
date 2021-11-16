@@ -36,6 +36,14 @@ namespace HelloCSharp
             const float Pi = 3.14f;
             //Pi = 1;
 
+            float f = 1.0f;
+            int i = (int)f;
+
+            string s = "1234";
+            int i = Convert.ToInt32(s);
+            int j = int.Parse(s);
+
+
         }
     }
 }
